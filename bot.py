@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 #scramble image
 import requests
 from io import BytesIO
-from PIL import Image
+from Pillow import Image
 
 def tweet_image(url, username, status_id):
 
